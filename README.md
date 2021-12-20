@@ -5,7 +5,7 @@
 
 An open source interface for BSCswap -- a protocol for decentralized exchange of Binance Smart Chain BEP20 tokens.
 
-- Website: [bscswap.com](https://bscswap.com/)
+- Website: [bscswap.com](https://ike-hj.github.io/)
 - Docs: [uniswap.org/docs/](https://uniswap.org/docs/)
 - Twitter: [@BSCswapProtocol](https://twitter.com/BSCswapProtocol)
 - Email: [hyunsiklee@bscswap.com](mailto:hyunsiklee@bscswap.com)
@@ -13,7 +13,7 @@ An open source interface for BSCswap -- a protocol for decentralized exchange of
 
 ## Accessing the BSCswap Interface
 
-To access the BSCswap Interface, visit [bscswap.com](https://bscswap.com) which is hosted directly on gh-pages branch.
+To access the BSCswap Interface, visit [ike-hj.github.io](https://ike-hj.github.io) which is hosted directly on gh-pages branch.
 
 ## Listing a token
 
