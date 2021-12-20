@@ -6,7 +6,8 @@ import { Text } from 'rebass'
 import styled from 'styled-components'
 
 import Logo from '../../assets/images/logo.png'
-import LogoDark from '../../assets/images/logo_white.png'
+// import LogoDark from '../../assets/images/logo_white.png'
+import LogoDark from '../../assets/images/logo.png'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances } from '../../state/wallet/hooks'
@@ -52,7 +53,7 @@ const Title = styled.a`
   display: flex;
   align-items: center;
   pointer-events: auto;
-
+  text-decoration: none;
   :hover {
     cursor: pointer;
   }
@@ -87,9 +88,18 @@ const NetworkCard = styled(YellowCard)`
 `
 
 const UniIcon = styled.div`
+  display: flex;
+  align-items: center;
   transition: transform 0.3s ease;
   :hover {
     transform: rotate(-5deg);
+  }
+  img {
+    margin-right: 6px;
+  }
+  span {
+    font-size: 22px;
+    color: #291EF3;
   }
 `
 
@@ -132,7 +142,8 @@ export default function Header() {
         <HeaderElement>
           <Title href=".">
             <UniIcon>
-              <img style={{ height: 50 }} src={isDark ? LogoDark : Logo} alt="logo" />
+              <img style={{ height: 50 ,width: 50 }} src={isDark ? LogoDark : Logo} alt="logo" />
+              <span style={ {color: (isDark ? '#FFFFFF' : '#724eed') } } >XXXSwap</span>
             </UniIcon>
           </Title>
         </HeaderElement>
